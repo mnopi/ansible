@@ -1,0 +1,6 @@
+---
+domain: mnopi.com
+account_name: "{{ ACCOUNT_NAME }}"
+account_group: "{{ account_name }}"
+ansible_user:  "{{ account_name }}"
+ansible_sudo_pass: "{{ ACCOUNT_PASSWD }}"

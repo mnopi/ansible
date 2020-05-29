@@ -1,0 +1,9 @@
+---
+user_name: jose
+account_name: "{{ user_name }}"
+account_group: "{{ user_name }}"
+user_group: "{{ user_name }}"
+ansible_user: "{{ user_name }}"
+ansible_sudo_pass: "{{ INTERNET_PASSWD }}"
+ansible_host: 18.206.250.223
+ansible_ssh_host: "{{ ansible_host }}"

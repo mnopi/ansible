@@ -1,0 +1,7 @@
+---
+- name: package upgrade
+  hosts: all
+  gather_facts: yes
+
+  roles:
+    - package_upgrade

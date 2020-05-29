@@ -1,0 +1,33 @@
+---
+- name: base
+  hosts: all
+  gather_facts: yes
+  vars:
+    pip_package: python3-pip
+    pip_executable: pip3
+
+  roles:
+    - package_upgrade
+    - package_install
+    - user
+    - sshd
+
+  tasks:
+    - name: set fact ansible_user
+      set_fact:
+        ansible_user: "{{ account_name }}"
+
+    - name: roles
+      include_role:
+        name: "{{ role_item }}"
+      loop_control:
+        loop_var: role_item
+      loop:
+        - profile
+        - ssh
+        - brew
+
+    - name: role pip
+      import_role:
+        name: geerlingguy.pip
+      when: ansible_distribution != 'MacOSX'

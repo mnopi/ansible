@@ -1,0 +1,6 @@
+---
+domain: local
+account_name: "{{ ACCOUNT_NAME }}"
+ansible_user:  "{{ account_name }}"
+ansible_sudo_pass: "{{ ANSIBLE_SUDO_PASS }}"
+ansible_ssh_host: "{{ inventory_hostname }}.{{ domain }}"

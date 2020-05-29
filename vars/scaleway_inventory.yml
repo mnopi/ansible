@@ -1,0 +1,16 @@
+---
+# https://docs.ansible.com/ansible/latest/scenario_guides/guide_scaleway.html
+# https://docs.ansible.com/ansible/latest/modules/scaleway_volume_module.html#scaleway-volume-module
+# https://docs.ansible.com/ansible/latest/modules/scaleway_compute_module.html#scaleway-compute-module
+
+## use hostname as inventory_hostname and public IP address to connect to the host
+plugin: scaleway
+hostnames:
+  - hostname
+# regions:
+#   - par1
+variables:
+  ansible_host: public_ip.address
+
+
+# ansible-inventory --list -i scaleway_inventory.yml

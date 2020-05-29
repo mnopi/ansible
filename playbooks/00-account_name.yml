@@ -1,0 +1,23 @@
+---
+- name: Set fact ansible_user root and install sudo
+  hosts: par1
+  gather_facts: no
+  tasks:
+    - name: ansible_user root
+      set_fact:
+        ansible_user: root
+
+# - name: packages
+#   hosts: all
+#   gather_facts: yes
+
+#   roles:
+#     - package_upgrade
+#     - package_install
+
+- name: Create user ACCOUNT_NAME
+  hosts: all
+  gather_facts: yes
+
+  roles:
+    - user

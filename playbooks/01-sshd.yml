@@ -1,0 +1,7 @@
+---
+- name: sshd
+  hosts: all
+  gather_facts: yes
+
+  roles:
+    - sshd

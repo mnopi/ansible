@@ -1,0 +1,7 @@
+---
+domain: nferx.com
+account_name: "jose"
+account_group: "Devops"
+ansible_user:  "{{ account_name }}"
+ansible_sudo_pass: "{{ INTERNET_PASSWD }}"
+ansible_ssh_host: "{{ inventory_hostname }}.{{ domain }}"

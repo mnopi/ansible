@@ -1,0 +1,36 @@
+[submodule "vars_plugins"]
+	path = vars_plugins
+	url = ./plugins/vars_plugins/
+[submodule "brew"]
+	path = brew
+	url = ./roles/brew/
+[submodule "certs"]
+	path = certs
+	url = ./roles/certs/
+[submodule "docker"]
+	path = docker
+	url = ./roles/docker/
+[submodule "gpg"]
+	path = gpg
+	url = ./roles/gpg/
+[submodule "nginx-revproxy"]
+	path = nginx-revproxy
+	url = ./roles/nginx-revproxy/
+[submodule "package_install"]
+	path = package_install
+	url = ./roles/package_install/
+[submodule "package_upgrade"]
+	path = package_upgrade
+	url = ./roles/package_upgrade/
+[submodule "profile"]
+	path = profile
+	url = ./roles/profile/
+[submodule "ssh"]
+	path = ssh
+	url = ./roles/ssh
+[submodule "sshd"]
+	path = sshd
+	url = ./roles/sshd
+[submodule "user"]
+	path = user
+	url = ./roles/user/

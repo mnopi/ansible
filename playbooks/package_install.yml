@@ -1,0 +1,7 @@
+---
+- name: package install
+  hosts: all
+  gather_facts: yes
+
+  roles:
+    - package_install
