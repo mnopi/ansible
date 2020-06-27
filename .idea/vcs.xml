@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/roles/brew" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/roles/certs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/roles/docker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/roles/gpg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/roles/nginx-revproxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/roles/package_install" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/roles/package_upgrade" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/roles/profile" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/roles/ssh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/roles/sshd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/roles/user" vcs="Git" />
+  </component>
+</project>
