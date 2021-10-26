@@ -1,5 +1,5 @@
 [submodule "vars_plugins"]
-	path = vars/vars_plugins
+	path = plugins/vars_plugins
 	url = git@github.com:mnopi/vars_plugins.git
 [submodule "brew"]
 	path = roles/brew
