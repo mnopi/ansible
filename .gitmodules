@@ -1,36 +1,36 @@
 [submodule "vars_plugins"]
 	path = vars/vars_plugins
-	url = git@github.com:j5pu/vars_plugins.git
+	url = git@github.com:mnopi/vars_plugins.git
 [submodule "brew"]
 	path = roles/brew
-	url = git@github.com:j5pu/brew.git
+	url = git@github.com:mnopi/brew.git
 [submodule "certs"]
 	path = roles/certs
-	url = git@github.com:j5pu/certs.git
+	url = git@github.com:mnopi/certs.git
 [submodule "docker"]
 	path = roles/docker
-	url = git@github.com:j5pu/docker.git
+	url = git@github.com:mnopi/docker.git
 [submodule "gpg"]
 	path = roles/gpg
-	url = git@github.com:j5pu/gpg.git
+	url = git@github.com:mnopi/gpg.git
 [submodule "nginx-revproxy"]
 	path = roles/nginx-revproxy
-	url = git@github.com:j5pu/nginx-revproxy.git
+	url = git@github.com:mnopi/nginx-revproxy.git
 [submodule "package_install"]
 	path = roles/package_install
-	url = git@github.com:j5pu/package_install.git
+	url = git@github.com:mnopi/package_install.git
 [submodule "package_upgrade"]
 	path = roles/package_upgrade
-	url = git@github.com:j5pu/package_upgrade.git
+	url = git@github.com:mnopi/package_upgrade.git
 [submodule "profile"]
 	path = roles/profile
-	url = git@github.com:j5pu/profile.git
+	url = git@github.com:mnopi/profile.git
 [submodule "ssh"]
 	path = roles/ssh
-	url = git@github.com:j5pu/ssh.git
+	url = git@github.com:mnopi/ssh.git
 [submodule "sshd"]
 	path = roles/sshd
-	url = git@github.com:j5pu/sshd.git
+	url = git@github.com:mnopi/sshd.git
 [submodule "user"]
 	path = roles/user
-	url = git@github.com:j5pu/user.git
+	url = git@github.com:mnopi/user.git
