@@ -30,3 +30,7 @@
 	path = roles/package_upgrade
 	url = https://github.com/mnopi/package_upgrade
 	fetchRecurseSubmodules = true
+[submodule "roles/profile"]
+	path = roles/profile
+	url = https://github.com/mnopi/profile
+	fetchRecurseSubmodules = true
