@@ -2,3 +2,7 @@
 	path = plugins/vars_plugins
 	url = https://github.com/mnopi/vars_plugins
 	fetchRecurseSubmodules = true
+[submodule "roles/brew"]
+	path = roles/brew
+	url = https://github.com/mnopi/brew
+	fetchRecurseSubmodules = true
