@@ -34,3 +34,7 @@
 	path = roles/profile
 	url = https://github.com/mnopi/profile
 	fetchRecurseSubmodules = true
+[submodule "roles/ssh"]
+	path = roles/ssh
+	url = https://github.com/mnopi/ssh
+	fetchRecurseSubmodules = true
