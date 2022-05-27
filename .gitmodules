@@ -22,3 +22,7 @@
 	path = roles/nginx-revproxy
 	url = https://github.com/mnopi/nginx-revproxy
 	fetchRecurseSubmodules = true
+[submodule "roles/package_install"]
+	path = roles/package_install
+	url = https://github.com/mnopi/package_install
+	fetchRecurseSubmodules = true
