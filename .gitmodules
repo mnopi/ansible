@@ -18,3 +18,7 @@
 	path = roles/gpg
 	url = https://github.com/mnopi/gpg
 	fetchRecurseSubmodules = true
+[submodule "roles/nginx-revproxy"]
+	path = roles/nginx-revproxy
+	url = https://github.com/mnopi/nginx-revproxy
+	fetchRecurseSubmodules = true
