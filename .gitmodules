@@ -10,3 +10,7 @@
 	path = roles/certs
 	url = https://github.com/mnopi/certs
 	fetchRecurseSubmodules = true
+[submodule "roles/docker"]
+	path = roles/docker
+	url = https://github.com/mnopi/docker
+	fetchRecurseSubmodules = true
