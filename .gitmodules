@@ -38,3 +38,7 @@
 	path = roles/ssh
 	url = https://github.com/mnopi/ssh
 	fetchRecurseSubmodules = true
+[submodule "roles/sshd"]
+	path = roles/sshd
+	url = https://github.com/mnopi/sshd
+	fetchRecurseSubmodules = true
