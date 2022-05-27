@@ -14,3 +14,7 @@
 	path = roles/docker
 	url = https://github.com/mnopi/docker
 	fetchRecurseSubmodules = true
+[submodule "roles/gpg"]
+	path = roles/gpg
+	url = https://github.com/mnopi/gpg
+	fetchRecurseSubmodules = true
