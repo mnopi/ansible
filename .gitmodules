@@ -6,3 +6,7 @@
 	path = roles/brew
 	url = https://github.com/mnopi/brew
 	fetchRecurseSubmodules = true
+[submodule "roles/certs"]
+	path = roles/certs
+	url = https://github.com/mnopi/certs
+	fetchRecurseSubmodules = true
