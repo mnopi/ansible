@@ -1,0 +1,4 @@
+[submodule "plugins/vars_plugins"]
+	path = plugins/vars_plugins
+	url = https://github.com/mnopi/vars_plugins
+	fetchRecurseSubmodules = true
